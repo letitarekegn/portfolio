@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: raleway;
+    color: white;
+    background: #cbbd9d;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+    width: fit-content;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.first-look {
+    background: #cbbd9d;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: magneto;
+}
+
+.black-logo-part {
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.links {
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: raleway;
+    border: 3px solid white;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.about:hover {
+    scale: 0.95;
+}
+
+.solid-back {
+    color: #4c4c4c;
+    background: white;
+}
+
+.solid-back:hover {
+    background: transparent;
+    color: white;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.content-type {
+    position: relative;
+    top: 0px;
+    left: -25px;
+    font-family: brush script MT;
+}
+
+.content-type-no, .content-type-name {
+    color: #977353;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.content-type-name {
+    font-size: 35px;
+}
+
+.content-header {
+    font-size: 55px;
+}
+
+.content-intro {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.content-desc {
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.content-desc:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.content-contact {
+    border: none;
+    background: #977353;
+    width: fit-content;
+    padding: 20px 60px;
+    border-radius: 50px;
+    color: white;
+}
+
+.hero-img {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.developer-img {
+    width: 100%;
+}
+
+/* Skills section */
+
+.waves {
+    width: 100%;
+}
+
+.second-look {
+    background: #977353;
+    margin-top: -10px;
+    padding-top: 50px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content-type-no-second, .content-type-name-second {
+    color: #E89090;
+}
+
+/* Skill icons section */
+
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.the-rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon-wrapper {
+    width: 60px;
+    margin: 0px 100px;
+    background: #ede7e7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icons {
+    width: 100%;
+}
+
+/* contact section */
+
+.third-look {
+    background: #A59697;
+    margin-top: -10px;
+    padding: 0px 0px 100px 0px;
+}
+
+.contact {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content-type-no-third, .content-type-name-third {
+    color: #FFDD00;
+}
+
+.the-form {
+    display: flex;
+}
+
+.my-socials {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.follow-prompt {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    text-decoration: none;
+    color: #090707;
+    padding: 2px 0px;
+    transition: 0.2s ease-in-out;
+}
+
+.social-links:hover {
+    color: white;
+}
+
+/* .form-page {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.name-email {
+    margin-bottom: 50px;
+}
+
+.inputs {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.name-div {
+    margin-bottom: 20px;
+} */
+
+/* The updated looks */
+
+.form-page {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inputs {
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #4c4c4c;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.message {
+    font-family: raleway;
+    color: #4c4c4c;
+    height: 100px;
+}
+
+.message::-webkit-scrollbar {
+    display: none;
+}
+
+.last-message {
+    width: fit-content;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-size: large;
+    color: #4c4c4c;
+    border: none;
+    border-radius: 5px;
+    font-family: raleway;
+    background: #cbbd9d;
+}
+
+.footer {
+    background-color: #7c6c6c;
+    padding: 20px;
+    padding-left: 100px;
+    font-size: 12px;
+}
+
+.showcase-aligner {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.showcase-wrapper {
+    max-width: 1000px;
+    height: 375px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    overflow: scroll;
+    justify-content: space-between;
+    scroll-snap-type: y mandatory;
+}
+
+.showcase-wrapper::-webkit-scrollbar {
+    display: none;
+}
+  
+
+.showcase {
+    scroll-snap-align: center;
+    background: white;
+    color: #707070;
+    border: 5px solid #707070;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 30px;
+}
+
+.showcase-screenshot {
+    width: 50%;
+    height: inherit;
+}
+
+.border-line {
+    height: 100%;
+    width: 5px;
+    background: #707070;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.showcase-contents {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.show-header {
+    font-size: 25px;
+}
+
+.show-language-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.show-languages {
+    margin-bottom: 10px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px 20px;
+}
+
+.show-redirect {
+    width: 100%;
+}
+
+.website, .github {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.scroll-status {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    position: sticky;
+    top: 0;
+}
+
+.the-scroller {
+    height: 100%;
+    width: 0px;
+    background: pink;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 0px 20px 0px hotpink;
+}
+
+.editable {
+    color: #4c4c4c;
+}
+
+.new-edit {
+	font-weight: 600;
+}
